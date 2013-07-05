@@ -4,7 +4,7 @@
 %% generally used in various Gang Zheng's courses.
 %%
 %% Copyright (C) 2004 Franklin P. Yu.
-%% version 1.1
+%% version 1.2
 %%
 %% Function included:
 %%	*	definition functions (defines arguments for reports)
@@ -18,7 +18,7 @@
 %%	*	\newgeometry after text begin may cause problems;
 %%		``\newcommand{\resetHeadWidth}{\fancy@setoffs}'' may be useful.
 
-\ProvidesClass{Ve270lab}[2013/05/25 Franklin Yu, Copyright (C) 2013]
+\ProvidesClass{Ve270lab}[2013/06/16 v1.2 Franklin Yu, Copyright (C) 2013]
 \NeedsTeXFormat{LaTeX2e}[1999/09/01]
 \typeout{}
 \typeout{ ======>  Lab Report Class of Joint Institude (Ve270lab.cls) 2002 <====== }
@@ -62,7 +62,7 @@
 	\begin{minipage}{1.5 in}
 	\centering\sffamily\bfseries
 	\Large Lab Report\\[1 em]
-	{\fontsize{2 in}{1 em}\selectfont \bfseries \@labnumber}
+	{\color{white}\fontsize{2 in}{1 em}\selectfont \bfseries \@labnumber}
 	\end{minipage}
 	}
 \end{flushright}
