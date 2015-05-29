@@ -1,22 +1,19 @@
-%%
-%% This is file `Ve270lab.cls'.
-%% Originally designed for laboratory session of Ve270,
-%% generally used in various Gang Zheng's courses.
-%%
+%% Ve270lab.cls
 %% Copyright (C) 2004 Franklin P. Yu.
-%% version 1.2
-%%
-%% Function included:
-%%	*	definition functions (defines arguments for reports)
-%%		*	\coursetitle{arg1}
-%%		*	\label{key}
-%%		*	\student{arg1}
-%%		*	\university{arg1}
-%%		*	\experiment{arg1}
-%%
-%% Notes:
-%%	*	\newgeometry after text begin may cause problems;
-%%		``\newcommand{\resetHeadWidth}{\fancy@setoffs}'' may be useful.
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+%
+% This work has the LPPL maintenance status `maintained'.
+% 
+% The Current Maintainer of this work is Franklin P. Yu. ( mailto:franklinyu@hotmail.com )
+%
+% This work consists of the files Ve270lab.cls and example.tex
 
 \ProvidesClass{Ve270lab}[2013/06/16 v1.2 Franklin Yu, Copyright (C) 2013]
 \NeedsTeXFormat{LaTeX2e}[1999/09/01]
