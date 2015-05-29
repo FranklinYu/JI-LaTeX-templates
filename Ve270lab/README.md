@@ -12,7 +12,15 @@ There are some configuration commands included:
     - `\university{univ}`
     - `\experiment{title}`
 
-## Notes
+## notes
 
 `\newgeometry` after text begin may cause problems;
 `\newcommand{\resetHeadWidth}{\fancy@setoffs}` may be useful.
+
+## files
+
+- `Ve270lab.cls`: the document class file
+- `example.tex`: the minimum working example
+- `Ve270lab (1.0).cls` and `Ve270lab (1.1).cls`: history before setting up this
+  repository
+- `Changelog (obsolete).txt`: change-logs before setting up this repository
